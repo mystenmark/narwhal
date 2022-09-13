@@ -25,7 +25,6 @@ storage = { path = "../storage" }
 dag = { path = "../dag" }
 prometheus = "0.13.2"
 types = { path = "../types" }
-workspace-hack = { version = "0.1", path = "../workspace-hack" }
 cfg-if = "1.0.0"
 
 [dev-dependencies]

@@ -41,7 +41,6 @@ prometheus = "0.13.2"
 storage = { path = "../storage" }
 types = { path = "../types" }
 worker = { path = "../worker" }
-workspace-hack = { version = "0.1", path = "../workspace-hack" }
 eyre = "0.6.8"
 
 [dev-dependencies]

@@ -834,7 +834,6 @@ dependencies = [
  "thiserror",
  "tracing",
  "tracing-test",
- "workspace-hack",
 ]
 
 [[package]]
@@ -865,7 +864,6 @@ dependencies = [
  "tracing",
  "typed-store",
  "types",
- "workspace-hack",
 ]
 
 [[package]]
@@ -1090,7 +1088,6 @@ dependencies = [
  "sha3 0.10.4",
  "signature",
  "tokio",
- "workspace-hack",
  "zeroize",
 ]
 
@@ -1188,7 +1185,6 @@ dependencies = [
  "rayon",
  "serde",
  "thiserror",
- "workspace-hack",
 ]
 
 [[package]]
@@ -1264,7 +1260,6 @@ dependencies = [
  "tokio",
  "tonic",
  "tonic-build",
- "workspace-hack",
 ]
 
 [[package]]
@@ -1513,7 +1508,6 @@ dependencies = [
  "tracing",
  "typed-store",
  "types",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2420,7 +2414,6 @@ dependencies = [
  "tonic",
  "tracing",
  "types",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2479,7 +2472,6 @@ dependencies = [
  "types",
  "url",
  "worker",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2997,7 +2989,6 @@ dependencies = [
  "typed-store",
  "types",
  "worker",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3974,7 +3965,6 @@ dependencies = [
  "tracing",
  "typed-store",
  "types",
- "workspace-hack",
 ]
 
 [[package]]
@@ -4196,7 +4186,6 @@ dependencies = [
  "typed-store",
  "types",
  "worker",
- "workspace-hack",
 ]
 
 [[package]]
@@ -4748,7 +4737,6 @@ dependencies = [
  "tonic-build",
  "tracing",
  "typed-store",
- "workspace-hack",
 ]
 
 [[package]]
@@ -5088,7 +5076,6 @@ dependencies = [
  "tracing",
  "typed-store",
  "types",
- "workspace-hack",
 ]
 
 [[package]]

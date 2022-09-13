@@ -18,7 +18,5 @@ tonic = { version = "0.7.2", features = ["tls"] }
 tracing = "0.1.36"
 types = { path = "../types" }
 
-workspace-hack = { version = "0.1", path = "../workspace-hack" }
-
 [dev-dependencies]
 test_utils = { path = "../test_utils" }
