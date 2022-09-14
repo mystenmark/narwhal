@@ -511,9 +511,11 @@ async fn test_simple_committee_update() {
         let threshold = new_committee.validity_threshold();
         for (_, authority) in new_committee.authorities.iter_mut() {
             if total_stake < threshold {
+                let host = "127.0.0.1";
                 authority.primary.primary_to_primary = format!(
-                    "/ip4/127.0.0.1/tcp/{}/http",
-                    config::utils::get_available_port()
+                    "/ip4/{}/tcp/{}/http",
+                    host,
+                    config::utils::get_available_port(host)
                 )
                 .parse()
                 .unwrap();
